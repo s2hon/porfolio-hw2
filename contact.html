@@ -21,8 +21,44 @@
 <link rel=”stylesheet” type=“” href=“”>
 </head>
 
-<body>
-    <div class="container">
+<body style="background-color: #736A6B;">
+    <div class="container" style="background-color: #404040;">
+      <header>
+          <!--Navigation Bar-->
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #591824;">
+              <a class="navbar-brand" href="#" style="color:#F2F2F2">Staci Shon</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Resume</a>
+                    </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Connect with me
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="https://https://github.com/s2hon/">Github</a>
+                      <a class="dropdown-item" href="https://www.linkedin.com/in/staci-shon/">LinkedIn</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+      </header>
+  
+    <div class="container" style="background-color: #591824; padding-bottom: 20px;">
         <form>
             <!--First Name-->
             <div class="form-group">
@@ -44,26 +80,12 @@
                 <label for="exampleFormControlInput1">LinkedIn</label>
                 <input type="url" class="form-control" id="exampleFormControlInput4" placeholder="https://www.linkedin.com/in/example-name/">
             </div>
+            <!--Phone#-->
             <div class="form-group">
-            <label for="exampleFormControlSelect1">Example select</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
+                <label for="exampleFormControlInput1">Phone#</label>
+                <input type="number" class="form-control" id="exampleFormControlInput5" placeholder="(###) ###-####">
             </div>
-            <div class="form-group">
-            <label for="exampleFormControlSelect2">Example multiple select</label>
-            <select multiple class="form-control" id="exampleFormControlSelect2">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
-            </div>
+            <!--additional msgs-->
             <div class="form-group">
             <label for="exampleFormControlTextarea1">Example textarea</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -72,4 +94,5 @@
     </div>
 </body>
 
+</html>
 <!--do I need to add any other functions here?-->
