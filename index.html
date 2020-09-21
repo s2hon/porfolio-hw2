@@ -21,12 +21,12 @@
 <link rel=”stylesheet” type=“” href=“index.css”>
 </head>
 
-<body>
-
+<body style="background-color: #736A6B;">
+  <div class="container" style="background-color: #0D0D0D;">
     <header>
         <!--Navigation Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Staci Shon</a>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #591824;">
+            <a class="navbar-brand" href="#" style="color:#F2F2F2">Staci Shon</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,15 +44,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Resume</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Connect with me
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Connect with me</a>
+                    <a class="dropdown-item" href="#">Github</a>
                     <a class="dropdown-item" href="#">LinkedIn</a>
                     <a class="dropdown-item" href="#">Facebook</a>
                   </div>
@@ -63,21 +60,25 @@
     </header>
 
 
-    <div class="container">
+    <div class="container" style="background-color: #591824;">
         <div class="row">
         <!--Face Page About me-->
         <div class="col-md-4" class="clearfix">
-            <img class="img img-thumbnail" src="http://placehold.it/200x200">
+            
+          <img class="img img-thumbnail" src="http://placehold.it/200x200">
         </div>
-        
+
         <div class="col-md-8">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                  <h1 class="display-4">Hello, world!</h1>
-                  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                  <hr class="my-4">
+                  <h1 class="text-center">Hello, world!</h1>
+                  <p class="text-center">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                  <hr class="text-center">
                   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                  <p class="text-center">
+                    <a class="btn btn-primary btn-lg" href="#" role="button" style="background-color: #8eb695; border-color: #8eb695;">
+                      <span class="fa fa-envelope"></span> Learn more</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -86,6 +87,42 @@
 
     <div class="row">
 
+      <div class="col-md-4" id="left">
+        <div class="card border-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4" id="middle">
+        <div class="card border-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4" id="right">
+        <div class="card border-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    
+  </div>
+  
+  <!-- Fixed Contact Button -->
+  <div id="fixed">
+  &lt;div&gt;<br> position: fixed
+  </div>
 </body>
+
+</html>
