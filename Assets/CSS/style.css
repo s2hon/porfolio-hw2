@@ -17,8 +17,16 @@
     background-color:white;
   }
 
+  .jumbotron{
+    background-size: auto; 
+    height: 100%;
+    width: 100%;
+}
+
   .card {
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   section {
