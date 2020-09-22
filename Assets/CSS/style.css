@@ -38,5 +38,12 @@
 
   .img-thumbnail {
     text-align: center;
+
+  }
+
+  footer {
+    background-color: #565bc4;
+    color: white;
+    font-size: small;
     
   }
