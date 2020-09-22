@@ -3,7 +3,7 @@
     background-color: whitesmoke;
     color: #333e3e;
   }
-  
+
   body {
     font-size: 21px;
     line-height: 28px;
@@ -13,35 +13,30 @@
     background-color:white;
   }
 
-  .navbar-brand {
-    color: #565bc4;
-  }
-
-
-  
-
   .card {
     align-content: center;
+    text-align: center;
   }
   
   section {
     align-items: center;
   }
 
-  #fixed {
-    
-    text-align: center;
-    background: #eee;
+  .purple {
+    color: #565bc4;
   }
 
   .third {
     height: 33.33%;
+    text-align: center;
   }
 
-  #imgcenter {
-    position: relative;
-    padding: 0px;
-    margin: 0px auto;
+  .form {
+    padding-bottom: 20px;
     text-align: center;
+  }
 
+  .img-thumbnail {
+    text-align: center;
+    
   }
