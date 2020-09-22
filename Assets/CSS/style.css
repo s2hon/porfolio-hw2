@@ -4,11 +4,13 @@
     box-sizing: border-box;
     background-color: whitesmoke;
     color: #333e3e;
+    text-align: center;
   }
 
   body {
     font-size: 21px;
     line-height: 28px;
+    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
   }
 
   .color {
@@ -17,7 +19,6 @@
 
   .card {
     align-content: center;
-    text-align: center;
   }
   
   section {
@@ -30,22 +31,22 @@
 
   .third {
     height: 33.33%;
-    text-align: center;
+
   }
 
   .form {
     padding-bottom: 20px;
-    text-align: center;
+
   }
 
-  .img-thumbnail {
-    text-align: center;
-
+  .aboutme_section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #565bc4;
+    color: white;
   }
 
   .footer {
-    background-color: #565bc4;
-    color: white;
     font-size: small;
 
   }
