@@ -6,23 +6,23 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title></title>
+<title></title>
 
 <!--Bootstrap CSS-->
-<link rel=”stylesheet” href=“assets/css/reset.css”>
+<link rel="stylesheet" href="assets/css/reset.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-<link rel=”stylesheet” href=“assets/css/index.css”>
+<link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
-<body class="color">
+<body style="background-color: #BFBFBD;">
   <div class="container">
     <header>
         <!--Navigation Bar-->
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#" style="color:#F2F2F2">Staci Shon</a>
+            <a class="navbar-brand" href="#" style="color:#565bc4"> Staci Shon</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,7 +35,7 @@
                   <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Resume</a>
@@ -45,7 +45,7 @@
                     Connect with me
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="contact.html">Contact Me</a>
+                    <a class="dropdown-item" href="./contact.html">Contact Me</a>
                     <a class="dropdown-item" href="https://https://github.com/s2hon/">Github</a>
                     <a class="dropdown-item" href="https://www.linkedin.com/in/staci-shon/">LinkedIn</a>
                   </div>
@@ -55,15 +55,24 @@
           </nav>
     </header>
 
-    <div class="container">
+      <section class="container">
         <div class="row">
         <!--Face Page About me-->
-        <div class="col-md-4" class="clearfix">
-          <img class="img img-thumbnail" src="http://placehold.it/200x200" >
-        </div>
+        <!--picture-->
+        <div class="col-md-4" class="col-sm-12" class="clearfix">
+          <div class="row third">
 
-        <div class="col-md-8">
-            <div class="jumbotron jumbotron-fluid">
+          </div>
+          <div class="row third">
+            <img class="img img-thumbnail" src="http://placehold.it/200x200" id="imgcenter">
+          </div>
+          <div class="row third">
+
+          </div>
+        </div>
+        <!--Jumbotron-->
+        <div class="col-md-8" class="col-sm-12">
+            <div class="jumbotron jumbotron-fluid" style="background:transparent !important">
                 <div class="container">
                   <h1 class="text-center">Hello, world!</h1>
                   <p class="text-center">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -77,40 +86,42 @@
               </div>
             </div>
         </div>
-    </div>
+      </section>
 
-    <div class="row" style="margin-top: 20px;">
-
-      <div class="col-md-4" id="left">
-        <div class="card border-light mb-3" style="max-width: 18rem;">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Light card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <section class="container">
+      <div class="row" style="margin-top: 20px;">
+        
+        <div class="col-md-4" class="card">
+          <div class="card border-light mb-3" style="max-width: 18rem;">
+            <header class="card-header">Header</header>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4" class="card">
+          <div class="card border-light mb-3" style="max-width: 18rem;">
+            <header class="card-header">Header</header>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4" class="card">
+          <div class="card border-light mb-3" style="max-width: 18rem;">
+            <header class="card-header">Header</header>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
         </div>
       </div>
-      
-      <div class="col-md-4" id="middle">
-        <div class="card border-light mb-3" style="max-width: 18rem;">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Light card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-4" id="right">
-        <div class="card border-light mb-3" style="max-width: 18rem;">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Light card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
   </div>
   
 <footer>
@@ -146,12 +157,3 @@
 
 </html>
 
-
-<!--How can I make so that the img scales with jumbotron--> change %
-<!--how do I override bootstrap-->
-<!--why doesn't this work-->
-  <!--<div id="fixed">
-    <button type="button" class="btn btn-light">Contact Me</button>
-  </div>-->
-  <!--* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
-  how do I do this? also can you explain me sm,md,lg and how it works for columns-->
