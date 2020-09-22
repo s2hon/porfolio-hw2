@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
     background-color: whitesmoke;
@@ -41,9 +43,9 @@
 
   }
 
-  footer {
+  .footer {
     background-color: #565bc4;
     color: white;
     font-size: small;
-    
+
   }
