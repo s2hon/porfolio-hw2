@@ -11,11 +11,16 @@
     font-size: 21px;
     line-height: 28px;
     font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+    
   }
 
+  .Site-content {
+    overflow: auto;
+  }
   .color {
     background-color:white;
   }
+
 
   .jumbotron{
     background-size: auto; 
@@ -23,11 +28,13 @@
     width: 100%;
 }
 
-  .card {
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.card {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 18rem;
+  max-height: 14rem;
+}
   
   section {
     align-items: center;
@@ -56,5 +63,11 @@
 
   .footer {
     font-size: small;
+    clear: both;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
 
   }
