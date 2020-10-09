@@ -15,3 +15,6 @@ Some of the requirements were:
 
 I wanted to create a basic portfolio with a basic layout for me to build this website through out this course. 
 One of the biggest challenges I embarked was the fact that my html and css link was broken. It took me two days to realize I used double single quotes ' ' instead of the standard " double. I had hard coded out all the CSS components under the style tag on the html but I was *determined* to find the bug. Even my tutor could not figure out the issue. Instead the tutor made things more complicated by instructing me to change fix my capitalization to all lower case. However the tutor forgot to tell me that I needed to change the names of the folder names on git repo using the terminal having another css and html link break. Because I spent so much time trying to "fix" this issue the rest of my project was done in a rush. I feel like I have managed to statisfy the minimum requirements of this assignment, but I wish I could've not lost all the time over a small syntax.
+
+Git Repository: https://github.com/s2hon/portfolio-hw2
+Deployed Website:
