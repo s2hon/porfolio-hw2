@@ -27,6 +27,7 @@ github: https://github.com/s2hon/s2hon.github.io
 
 ## Usage
 go to s2hon.github.io and check out my page
+![checkoutmypage] (hello.gif)
 
 ### Technologies
 bootstrap.cdn, fontawesome
